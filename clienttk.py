@@ -65,7 +65,7 @@ msg_list.pack(side=tk.LEFT, fill=tk.BOTH)
 #msg_list.pack()
 messages_frame.pack()
 
-helv36 = tkFont.Font(family='Helvetica', size=9, weight=tkFont.BOLD)
+helv36 = tkFont.Font(size=9, weight=tkFont.BOLD)
 
 field_frame = tk.Frame(top, width= 30, height=60, bd=3, bg="RosyBrown")
 entry_field = tk.Entry(field_frame, textvariable=my_msg, width=60)
